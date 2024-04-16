@@ -3,12 +3,6 @@ header{
     justify-content: space-between;
 }
 
-.titulo{
-    display: inline;
-    margin-bottom: 50px;
-    align-items: center;
-}
-
 header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
     width: 1000px;
     height: 300px;
@@ -16,6 +10,8 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
     margin-right: 250px;
     border-radius: 30px;
 }
+
+/*stilos imagenes*/
 
 .img1{
     width: 450px;
@@ -26,11 +22,29 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
 }
 
 .img3{
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    margin-left: 360px;
-    margin-top: -550px;
+    width: 25%;
+    height: 40%;
+    border-radius: 5%;
+    margin-left: 72%;
+    margin-bottom: 5%;
+    margin-top: -25%;
+}
+
+.img4{
+    width: 25%;
+    height: 40%;
+    border-radius: 5%;
+    margin-left: 72%;
+    margin-bottom: 5%;
+    margin-top: -25%;
+}
+
+/*stilos titulos*/
+
+.titulo{
+    display: inline;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .title{
@@ -38,6 +52,7 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
     margin-top: 10px;
     text-align: center;
     color: white;
+    font-size: xx-large;
 }
 
 .subtitle{
@@ -45,16 +60,53 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
     margin-top: -200px;
     text-align: center;
     color: white;
+    font-size: x-large;
 }
 
-nav{
-    border-radius: 30px;
-    width: 1000px;
-    height: 50px;
-    display: block;
+/*stilos nav-Container*/
+
+.Nav{
+    border-radius:initial;
+    width: 98%;
+    height: 35%;
+    display: flex;
     font-size: xx-large;
-    padding: 40px 30px 40px 40px;
+    padding: 1% 1%;
+    background-color: brown;
+    margin-top: 4.5%;
+    align-items: center;
 }
+
+.nav_link1{
+    align-items: center;
+    margin-left: 7%;
+    display: flex;
+    font-style:unset;
+    color: white;
+}
+
+.nav_link2{
+    align-items: center;
+    margin-left: 7%;
+    display: flex;
+    color: white;
+}
+
+.nav_link3{
+    align-items: center;
+    margin-left: 7%;
+    display: flex;
+    color: white;
+}
+
+.nav_link4{
+    align-items: center;
+    margin-left: 7%;
+    display: flex;
+    color: white;
+}
+
+/*Stilos Div-Container*/
 
 .Contend3{ 
     margin-left: 250px;
@@ -65,10 +117,38 @@ nav{
     margin-right: 400px;
 }
 
+.Cuidados{
+    border-radius: 30px;
+    display: block;
+    border-color: 1px solid blueviolet;
+    background-color: coral;
+}
+
+.Salir{
+    border-radius: 30px;
+    display: block;
+    border-color: 1px solid blueviolet;
+    background-color: coral;
+}
+
+.Cuidados1{
+    margin-right: 30%;
+    margin-left: 2%;
+}
+
+.Cuidados4{
+    margin-right: 30%;
+    margin-left: 2%;
+}
+
+/*stilos Form*/
+
 .Form{
    margin-left: 650px;
-   margin-right: 5px;
-   margin-top: -450px;
+   margin-right: 1%;
+   margin-top: -420px;
+   background-color: aquamarine;
+   border-radius: 5%;
 }
 
 .Boton{
@@ -78,17 +158,22 @@ nav{
    background-color: black;
    border-radius: 15px;
 }
-.Cuidados{
-   border-radius: 30px;
-   display: block;
-   border-color: 1px solid blueviolet;
+
+label{
+    margin-left: 25%;
+    text-align: justify;
+}
+.title-form{
+    margin-left: 10%;
 }
 
-.Salir{
-
+input{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 22%;
 }
 
 
-.Cuidados1{
-    margin-right: 250px;
-}
+
+
