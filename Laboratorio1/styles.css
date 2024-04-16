@@ -1,0 +1,94 @@
+header{
+    display: grid;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: inline;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
+    width: 1000px;
+    height: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+}
+
+.img1{
+    width: 450px;
+    height: 250px;
+    margin-left: 550px;
+    margin-top: 0px;
+    image-orientation: initial;
+}
+
+.img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 360px;
+    margin-top: -550px;
+}
+
+.title{
+    margin-right: 500px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.subtitle{
+    margin-right: 500px;
+    margin-top: -200px;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    border-radius: 30px;
+    width: 1000px;
+    height: 50px;
+    display: block;
+    font-size: xx-large;
+    padding: 40px 30px 40px 40px;
+}
+
+.Contend3{ 
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.Contend2{
+    margin-right: 400px;
+}
+
+.Form{
+   margin-left: 650px;
+   margin-right: 5px;
+   margin-top: -450px;
+}
+
+.Boton{
+   display: flex;
+   margin-left: 125px;
+   color: white;
+   background-color: black;
+   border-radius: 15px;
+}
+.Cuidados{
+   border-radius: 30px;
+   display: block;
+   border-color: 1px solid blueviolet;
+}
+
+.Salir{
+
+}
+
+
+.Cuidados1{
+    margin-right: 250px;
+}
