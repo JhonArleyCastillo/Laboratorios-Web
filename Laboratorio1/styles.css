@@ -75,6 +75,7 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
     background-color: brown;
     margin-top: 4.5%;
     align-items: center;
+    border-radius: 2.5%;
 }
 
 .nav_link1{
@@ -115,6 +116,8 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
 
 .Contend2{
     margin-right: 400px;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 .Cuidados{
@@ -146,7 +149,7 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
 .Form{
    margin-left: 650px;
    margin-right: 1%;
-   margin-top: -420px;
+   margin-top: -430px;
    background-color: aquamarine;
    border-radius: 5%;
 }
@@ -173,7 +176,14 @@ input{
     text-align: justify;
     margin-left: 22%;
 }
-
+ /*stilos footer*/
+footer{
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5%;
+}
 
 
 
