@@ -87,28 +87,28 @@ header{
 
 .nav_link1{
     align-items: center;
-    margin-left: 7%;
+    margin-left: 5%;
     display: flex;
     color: white;
 }
 
 .nav_link2{
     align-items: center;
-    margin-left: 7%;
+    margin-left: 5%;
     display: flex;
     color: white;
 }
 
 .nav_link3{
     align-items: center;
-    margin-left: 7%;
+    margin-left: 5%;
     display: flex;
     color: white;
 }
 
 .nav_link4{
     align-items: center;
-    margin-left: 7%;
+    margin-left: 5%;
     display: flex;
     color: white;
 }
@@ -200,20 +200,58 @@ footer{
     text-align: center;
     background-color: aqua;
     border-radius: 30px;
-    margin-top: 15%;
+    margin-top: 2%;
 }
 
-
   
-  /* Tablets */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
- 
+  /* Movil */
+  @media only screen and (max-width: 780px) {
+  .body{
+    display: flexbox;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
   }
-
-  
-  /* PCs y laptops */
-  @media only screen and (min-width: 1025px) {
-    /* Estilos para PCs y laptops */
+  .Contend3{
+    display: flexbox;
+  }
+  .Nav{
+    display: flexbox;
+  }
   }
   
+    /* Ajustar el tamaño del formulario */
+input[type="text"], input[type="number"], input[type="date"], input[type="time"], input[type="submit"] {
+      width: 90%;
+      margin: 5px auto;
+}
 
+  /* Estilos para el menú de hamburguesa */
+.menu-toggle {
+    display: none; /* Oculta el menú de hamburguesa en pantallas grandes */
+    cursor: pointer;
+}
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+  
+  /* Estilos para el menú de navegación en dispositivos móviles */
+@media only screen and (max-width: 780px) {
+    .menu-toggle {
+      display: block; /* Muestra el menú de hamburguesa en pantallas pequeñas */
+    }
+  
+    .Nav {
+      display: none; /* Oculta el menú de navegación por defecto en pantallas pequeñas */
+      text-align: center;
+    }
+  
+    .Nav.active {
+      display: block; /* Muestra el menú de navegación cuando está activo */
+    }
+}
+  
