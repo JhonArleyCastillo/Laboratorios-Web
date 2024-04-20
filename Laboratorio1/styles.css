@@ -1,27 +1,33 @@
 header{
-    display: grid;
+    display: flex;
 }
 
-header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
+header{
     width: 100%;
-    height: 10%;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0.5%;
-    margin-top: 0.5%;
-    border-radius: 5%;
+    height: 100%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 /*stilos imagenes*/
 
 .img1{
-    width: 100%;
-    height: 100%;
-    max-width: 35%;
-    max-height: 35%;
+    width: 60%;
+    height: 30%;
+    max-width: 40%;
+    max-height: 40%;
     margin-left: 55%;
-    margin-top: 0%;
+    margin-top: -10%;
     float: right;
+}
+
+.img2{
+    float: left;
+    width: 100%;
+    height: 30%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    margin-top: -8%;
 }
 
 .img3{
@@ -45,41 +51,41 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
 /*stilos titulos*/
 
 .titulo{
+    margin-left: 22%;
     text-align: center;
+    margin-top: 1%;
 }
 
 .title{
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: xx-large;
+    margin-bottom: 2;
 }
 
 .subtitle{
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: x-large;
+    margin-top: 2;
 }
 
 /*stilos nav-Container*/
 
 .Nav{
     width: 100%;
-    height: 0%;
-    top: 5%;
-    bottom: 5%;
-    display: inline-block;
+    height: 10%;
+    display: flex;
     font-size: xx-large;
-    padding: auto;
     background-color: brown;
-    margin-top: -10%;
     border-radius: 0 0 30px 30px;
+    border: 1px solid black;
 }
 
 .nav_link1{
     align-items: center;
     margin-left: 7%;
     display: flex;
-    font-style:unset;
     color: white;
 }
 
@@ -113,8 +119,13 @@ header{background-image: url(./Img/Huesitos-huellitas-azul.jpg);
 
 .Contend2{
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: -5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contenedor-h{
+    margin-left: 20%;
+    margin-right: 20%
 }
 
 .Cuidados{
@@ -185,11 +196,12 @@ footer{
     border-radius: 30px;
 }
 
-}
+
   
   /* Tablets */
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
  
+  }
 
   
   /* PCs y laptops */
