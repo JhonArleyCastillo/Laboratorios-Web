@@ -12,7 +12,7 @@ header{
 /*stilos imagenes*/
 
 .img1{
-    width: 40%;
+    width: auto;
     height: 30%;
     max-width: 40%;
     max-height: 40%;
@@ -252,6 +252,57 @@ input[type="text"], input[type="number"], input[type="date"], input[type="time"]
   
     .Nav.active {
       display: block; /* Muestra el menú de navegación cuando está activo */
+    }
+
+    .body{
+        display: block;
+        margin: 0%;
+    }
+
+    .main{
+        display: inline;
+        margin: 0%;
+    }
+
+    .Form{
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+
+    .Contend2{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .Contend3{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .footer, .p{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .contenedor-h{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .titulo{
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+
+    .menu-toggle{
+        margin-left: -15%;
+        margin-right: 95%;
     }
 }
   
