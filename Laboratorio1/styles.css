@@ -1,35 +1,48 @@
+/* escritorio normales */
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+    body { font-size: 16px; }
+    .main1{
+        display: none;
+        }
+    .item-list{
+        display: none;
+    }
+    .menu-button-wrapper{
+        display: none;
+    }
 header{
     display: flex;
-}
+    position: absolute;
+    }
 
 header{
     width: 100%;
     height: 100%;
     margin-right: 20%;
     margin-left: 20%;
-}
+    margin-bottom: -10%;
+    }
 
 /*stilos imagenes*/
 
 .img1{
-    width: auto;
-    height: 30%;
-    max-width: 40%;
-    max-height: 40%;
-    margin-left: -10%;
-    margin-top: -9%;
-    float: right;
-    margin-right: 40%;
-}
-
+    width: 100%;
+    height: 50%;
+    margin-top: -30%;
+    margin-right: 0%;
+    margin-left: 60%;
+    max-width: 20%;
+    max-height: 20%;
+    }
+    
 .img2{
-    float: left;
-    width: 60%;
-    height: 30%;
+    width: 100%;
+    height: 20%;
     border-radius: 30px 30px 0px 0px;
     display: flex;
-    margin-top: -8%;
-}
+    margin-top: -10%;
+    margin-right: 0%;
+    }
 
 .img3{
     width: 25%;
@@ -38,7 +51,7 @@ header{
     margin-left: 72%;
     margin-bottom: 5%;
     margin-top: -25%;
-}
+    }
 
 .img4{
     width: 25%;
@@ -47,96 +60,102 @@ header{
     margin-left: 72%;
     margin-bottom: 5%;
     margin-top: -25%;
-}
+    }
 
 /*stilos titulos*/
 
 .titulo{
-    margin-left: 22%;
+    margin-left: 0%;
     text-align: center;
-    margin-top: 1%;
-}
+    margin-top: -20%;
+    margin-bottom: 0%;
+    }
 
 .title{
     text-align: left;
-    margin-left: -20%;
+    margin-left: 10%;
     color: white;
     font-size: xx-large;
-    margin-bottom: 2;
-}
+    margin-bottom: 2%;
+    margin-top: -2%;
+    }
 
 .subtitle{
     text-align: left;
-    margin-left: -20%;
+    margin-left: 0%;
     color: white;
     font-size: x-large;
-    margin-top: 2;
-}
+    margin-top: -10%;
+    }
 
 /*stilos nav-Container*/
 
 .Nav{
-    width: 60%;
+    width: 100%;
     height: 10%;
     display: flex;
     font-size: xx-large;
     background-color: brown;
     border-radius: 0 0 30px 30px;
     border: 1px solid black;
-}
+    margin-bottom: 0%;
+    margin-top: 0%;
+    align-items: center;
+    }   
 
 .nav_link1{
     align-items: center;
-    margin-left: 5%;
+    margin-left: 12%;
     display: flex;
     color: white;
-}
+    }
 
 .nav_link2{
     align-items: center;
     margin-left: 5%;
     display: flex;
     color: white;
-}
+    }
 
 .nav_link3{
     align-items: center;
     margin-left: 5%;
     display: flex;
     color: white;
-}
+    }
 
 .nav_link4{
     align-items: center;
     margin-left: 5%;
     display: flex;
     color: white;
-}
+    }
 
 /*Stilos Div-Container*/
 
 .Contend3{ 
     margin-left: 20%;
-    margin-right: 20%;
-}
+    margin-right: 13%;
+    margin-top: 30%;
+    }
 
 .Contend2{
     margin-right: 49%;
     margin-top: -25%;
 
-}
+    }
 
 .contenedor-h{
-    margin-left: 20%;
-    margin-right: 20%
-}
+    margin-left: 0%;
+    margin-right: 0%
+    }
 
 .Cuidados{
     border-radius: 30px;
     display: block;
     border: 1px solid blueviolet;
     background-color: coral;
-}
+    }
 
 .Salir{
     border-radius: 30px;
@@ -144,142 +163,123 @@ header{
     border: 1px solid blueviolet;
     background-color: coral;
     margin-top: 2%;
-}
+    }
 
 .Cuidados1{
     margin-right: 30%;
     margin-left: 2%;
-}
+    }
 
 .Cuidados4{
     margin-right: 30%;
     margin-left: 2%;
-}
+    }
 
 /*stilos Form*/
 
 .Form{
-   display: grid;
-   margin-left: 54%;
-   margin-right: auto;
-   margin-top: -60%;
-   background-color: aquamarine;
-   border-radius: 5%;
-   border: 1px solid blueviolet;
-}
+    display: grid;
+    margin-left: 54%;
+    margin-right: auto;
+    margin-top: -50%;
+    background-color: aquamarine;
+    border-radius: 5%;
+    border: 1px solid blueviolet;
+    }
 
 .Form, .Boton{
     text-align: center;
     align-items: center;
-}
+    }
 .Boton{
-   color: white;
-   background-color: black;
-   border-radius: 15px;
-}
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    }
 
 label{
     text-align: right;
-}
+    }
 .title-form{
     text-align: center;
     background-color: black;
     color: blue;
-}
+    }
 
 input{
     display: inline-block;
     text-align: center;
     margin-right: 1.5%;
     
-}
+    }
  /*stilos footer*/
 footer{
-    margin-right: 20%;
+    margin-right: 13%;
     margin-left: 20%;
     text-align: center;
     background-color: aqua;
     border-radius: 30px;
     margin-top: 2%;
-}
-
-  
-  /* Movil */
-  @media only screen and (max-width: 780px) {
-  .body{
-    display: flexbox;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-  }
-  .Contend3{
-    display: flexbox;
-  }
-  .Nav{
-    display: flexbox;
-  }
-  }
+    }
   
     /* Ajustar el tamaño del formulario */
 input[type="text"], input[type="number"], input[type="date"], input[type="time"], input[type="submit"] {
       width: 90%;
       margin: 5px auto;
+    }
 }
 
-  /* Estilos para el menú de hamburguesa */
-.menu-toggle {
-    display: none; /* Oculta el menú de hamburguesa en pantallas grandes */
-    cursor: pointer;
-}
-  
-  .menu-toggle .bar {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 5px 0;
-}
-  
+
   /* Estilos para el menú de navegación en dispositivos móviles */
-@media only screen and (max-width: 780px) {
-    .menu-toggle {
-      display: block; /* Muestra el menú de hamburguesa en pantallas pequeñas */
-    }
-  
+@media only screen and (min-width: 360px) and (max-width: 767px) {  
     .Nav {
-      display: none; /* Oculta el menú de navegación por defecto en pantallas pequeñas */
+      display:grid;
       text-align: center;
+      font-size: xx-large; 
+      border-radius: 20px;
+      background: #f953c6;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #da2287, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #da2287, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+      margin-top: 15%;
     }
   
     .Nav.active {
       display: block; /* Muestra el menú de navegación cuando está activo */
     }
 
-    .body{
-        display: block;
-        margin: 0%;
+    .header{
+        margin-top: 0%;
     }
 
-    .main{
-        display: inline;
+    .body{
+        display: flex;
         margin: 0%;
+        font-size: 14px;
     }
 
     .Form{
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 0%;
         margin-left: 0%;
         margin-right: 0%;
+        text-align: center;
 
     }
 
     .Contend2{
         margin-left: 0%;
         margin-right: 0%;
+        margin-top: -10%;
+        text-align: center;
     }
 
     .Contend3{
         margin-left: 0%;
         margin-right: 0%;
+        margin-top: 15%;
+        margin-bottom: 0%;
+        background-color: aqua;
+        border-radius: 30px;
     }
 
     .footer, .p{
@@ -291,18 +291,62 @@ input[type="text"], input[type="number"], input[type="date"], input[type="time"]
     .contenedor-h{
         margin-left: 0%;
         margin-right: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;
+        margin-top: 10%;
+        margin-bottom: 2%;
     }
 
     .titulo{
-        margin-left: 10%;
+        margin-left: 6%;
         margin-right: 0%;
+        margin-top: -8%;
+        margin-bottom: -10%;
     }
 
-    .menu-toggle{
-        margin-left: -15%;
-        margin-right: 95%;
+    .title{
+        margin-top: -2%;
+        margin-bottom: 2%;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 50% solid black;
+    }
+    .subtitle{ 
+        margin-top: -18%;
+        margin-bottom: 5%;
+        color: white;
+        font-family:'Times New Roman', Times, serif
+    }
+
+    .img2{
+
+        margin-top: 10%;
+        margin-left: -6%;
+        margin-right: -10%;
+        width: 105%;
+        height: 100%;
+        border-radius: 3% 3% 3% 3%;
+    }
+
+    .img1{
+        margin-right: 0%;
+        width: 25%;
+        height: 25%;
+        margin-bottom: 2%;
+        margin-top: -15%;
+        margin-left: 60%;
+    }
+
+    .img3{
+        width: 50%;
+        height: 50%;
+    }
+
+    .img4{
+        width: 65%;
+        height: 65%;
+    }
+    .footer{
+        text-align: center;
+        background-color: aqua;
+        border-radius: 5px;
     }
 }
-  
