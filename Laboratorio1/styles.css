@@ -1,15 +1,6 @@
 /* escritorio normales */
 @media only screen and (min-width: 768px) and (max-width: 2000px) {
     body { font-size: 16px; }
-    .main1{
-        display: none;
-        }
-    .item-list{
-        display: none;
-    }
-    .menu-button-wrapper{
-        display: none;
-    }
 header{
     display: flex;
     position: absolute;
@@ -20,7 +11,8 @@ header{
     height: 100%;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: -10%;
+    margin-top: -5%;
+    
     }
 
 /*stilos imagenes*/
@@ -136,7 +128,7 @@ header{
 .Contend3{ 
     margin-left: 20%;
     margin-right: 13%;
-    margin-top: 30%;
+    margin-top: 35%;
     }
 
 .Contend2{
