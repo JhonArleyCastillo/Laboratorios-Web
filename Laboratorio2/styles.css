@@ -1,30 +1,48 @@
 @media only screen and (min-width: 768px) and (max-width: 2000px) {
     body { font-size: 16px; }
 
-    header{
-        display: grid;
-        position: absolute;
-        
-        }
-    
-    header{
-        width: 100%;
-        height: 100%;
-        margin-right: 20%;
-        margin-left: 20%;
-        margin-top: 0%;
-        color: grey;
-        border-radius: 30%;
-        }
+    /*nav styles*/ 
 
+    .contenedor-h{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: none;
+        height: 30%;
+        width: 100%;
+    }
+
+    .Nav{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        font-size: xx-large;
+        background-color: brown;
+        border-radius: 0 0 30px 30px;
+        border: 1px solid black;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        align-items: center;
+        }  
+
+    .nav_link1, .nav_link2, .nav_link3, .nav_link4{
+        padding: 1.5%;
+        align-items: center;
+        width: 100%;
+
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: x-large;
+    }
+    
     .titulo{
             margin-left: 0%;
             margin-right: 0%;
             margin-top: 0%;
             margin-bottom: 0%;
             background-color: grey;
-            display: flex;
-            text-align: left;
+            display: grid;
+            text-align: center;
+            width: 80%;
         }
     
     .title{
@@ -32,62 +50,65 @@
             margin-bottom: 0%;
             color: black;
             font-family: 'Times New Roman', Times, serif;
-            text-shadow: 50% solid black;
+            align-items: center;
         }
     .subtitle{ 
             margin-top: 0%;
             margin-bottom: 0%;
             color: black;
-            font-family:'Times New Roman', Times, serif
+            font-family:'Times New Roman', Times, serif;
         }
 
     /*stilos imagenes*/
 
     .img1{
-        width: 100%;
-        height: 100%;
+        width: 30%;
+        height: 60%;
         margin-top: 0%;
         margin-right: 0%;
         margin-left: 60%;
-        max-width: 20%;
-        max-height: 20%;
-        display: flex;
+       
+        display: grid;
+    }
+
+    .img2{
+        width: 100%;
+        height: 100%;
+        max-width: 25%;
+        max-height: 25%;
+        display: grid;
     }
 
     /*stilos Form*/
 
-.Form{
+.form{
+    height: 100%;
+    width: 100%;
     display: grid;
-    margin-left: 54%;
-    margin-right: auto;
-    margin-top: -50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
     background-color: aquamarine;
-    border-radius: 5%;
+    border-radius: 30px;
     border: 1px solid blueviolet;
     }
 
-.Form, .Boton{
-    text-align: center;
+.form{
     align-items: center;
     }
 .Boton{
-    color: yellow;
-    background-color: black;
+    color: black;
+    background-color: yellow;
     border-radius: 15px;
     }
 
 label{
-    text-align: right;
-    }
-.title-form{
-    text-align: center;
-    background-color: black;
-    color: white;
+    text-align: left;
     }
 
 input{
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    text-align: top;
     margin-right: 1.5%;
     
     }
@@ -95,10 +116,32 @@ input{
     /*Columns*/
 
     .columns{
-        grid: 100%
+        display: grid;
+        grid-template-columns: 30em 30em 33em;
+        grid-template-areas: 
+        "h2 h2 h2"
+        "left middle right";
     }
 
     .column1, .column2, .column3, .column4, .column5, .column6{
-        grid:32%
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    
+
+
+
+    /*footer styles*/
+
+    .footer{
+        align-items: center;
+        background-color: aqua;
+        display: grid;
+        border-radius: 30px;
+    }
+
+    p{
+        text-align: center;
     }
 }
