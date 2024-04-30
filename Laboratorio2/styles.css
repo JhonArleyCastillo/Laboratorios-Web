@@ -8,7 +8,6 @@
         display: grid;
         border-radius: 30px;
         width: 100%;
-        bottom: auto;
     }
 
     .Nav{
@@ -177,6 +176,97 @@ label{
     }
 
     p{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Nav */
+    .Nav {
+        flex-direction: column;
+        height: auto;
+        background-color: yellow;
+        border-radius: 30px;
+        align-items: center;
+    }
+    .nav_link1, .nav_link2, .nav_link3, .nav_link4 {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    /* Imágenes */
+    .img1, .img2 {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Formulario */
+    .input1 {
+        margin-left: 0;
+
+    }
+
+    /* Columnas */
+    .columns {
+        grid-template-columns: 100%;
+        background-color: lightgrey;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .footer{
+        text-align: center;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+    }
+
+    .form{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        background-color: lightgrey;
+        border-radius: 30px;
+        }
+    
+    .form{
+        align-items: center;
+        }
+    .Boton{
+        color: black;
+        background-color: yellow;
+        border-radius: 15px;
+        margin: auto;
+        }
+
+    h2{
+        background-color: black;
+        color: white;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        border-top: 1px solid white;
+        background-color: rgb(39, 38, 38);
+        margin-left: -10%;
+        color: white;
+    }
+    
+    .titulo-a{
+        margin-left: -10%;
+    }
+   
+    .contenedor-h{
+        background-color: lightgrey;
+        border-radius: 30px;
         text-align: center;
     }
 }
